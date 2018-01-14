@@ -1,6 +1,6 @@
 # 02 C#的System命名空間(namespace)
 
-#### C#程式基礎於.net的框架(framework), 它使用.net中的類別(class)及結構(struct)等資源, 框架內的資源依其用途分存在不同的命名空間中. 
+#### C#程式基礎於.net的框架(framework), 它使用.net中的類別(class)及結構(struct)等資源, 框架內的資源依其用途分存在不同的命名空間中, System是C#的一個命名空間. 
 
 ```
      System
