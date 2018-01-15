@@ -36,16 +36,16 @@ namespace Ntub.Imd
         //------------------------------
         // getters
         //------------------------------        
-        public string getName(){return this.name;}
-        public char getRank(){return this.rank;}
-        public int getWorkHours(){return this.workHours;}
+        public string GetName(){return this.name;}
+        public char GetRank(){return this.rank;}
+        public int GetWorkHours(){return this.workHours;}
         
         //------------------------------
         // setters
         //------------------------------          
-        public void setName(string name){this.name=name;}
-        public void setRank(char rank){this.rank=rank;}
-        public void setWorkHours(int workHours)
+        public void SetName(string name){this.name=name;}
+        public void SetRank(char rank){this.rank=rank;}
+        public void SetWorkHours(int workHours)
         {
             if(workHours>=0)
             {
@@ -73,9 +73,9 @@ class MainClass
     {
         Employee s = new Employee("tommy", 'A', -100);
         
-        Console.WriteLine("name:{0}", s.getName());
-        Console.WriteLine("rank:{0}", s.getRank());
-        Console.WriteLine("working hours:{0}", s.getWorkHours());        
+        Console.WriteLine("name:{0}", s.GetName());
+        Console.WriteLine("rank:{0}", s.GetRank());
+        Console.WriteLine("working hours:{0}", s.GetWorkHours());        
     }    
 }
 ```
