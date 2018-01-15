@@ -9,7 +9,7 @@
 ```
 
 
-#### (2-1) Student.cs
+#### (2-1) Employee.cs
 
 ```
 namespace Ntub.Imd
@@ -20,12 +20,14 @@ namespace Ntub.Imd
         // 成員
         //------------------------------
         private string _name;
-        public string name {set; get;}
-        
         private char _rank;
-        public char rank{set; get;}
-        
         private int _workHours;
+        
+        //------------------------------
+        // getter及setter
+        //------------------------------        
+        public string name {set; get;}
+        public char rank{set; get;}
         public int workHours
         {
             set
@@ -41,7 +43,7 @@ namespace Ntub.Imd
         }
 
         //------------------------------
-        // 建構元(1)
+        // 建構元
         //------------------------------        
         public Employee(string name, char rank, int workHours)
         {
@@ -51,7 +53,7 @@ namespace Ntub.Imd
         }
 
         //------------------------------
-        // 建構元(2)
+        // 建構元
         //------------------------------         
         public Employee(){}
     }
