@@ -28,17 +28,9 @@ namespace Ntub.Imd
         //------------------------------        
         public Employee(string name, char rank, int workHours)
         {
-            this.name=name;
-            this.rank=rank;
-            
-            if(workHours>=0)
-            {
-                this.workHours=workHours;   
-            }
-            else
-            {
-                this.workHours=0;
-            }
+            setName(name);
+            setRank(rank);
+            setWorkHours(workHours);
         }
         
         //------------------------------
@@ -47,6 +39,23 @@ namespace Ntub.Imd
         public string getName(){return this.name;}
         public char getRank(){return this.rank;}
         public int getWorkHours(){return this.workHours;}
+        
+        //------------------------------
+        // setters
+        //------------------------------          
+        public void setName(string name){this.name=name;}
+        public void setRank(char rank){this.rank=rank;}
+        public void setWorkHours(int workHours)
+        {
+             if(workHours>=0)
+            {
+                this.workHours=workHours;   
+            }
+            else
+            {
+                this.workHours=0;
+            }           
+        }
     }
 }
 ```
