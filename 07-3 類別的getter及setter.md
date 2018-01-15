@@ -22,6 +22,21 @@ namespace Ntub.Imd
         private string _name;
         private char _rank;
         private int _workHours;
+
+        //------------------------------
+        // 建構元
+        //------------------------------        
+        public Employee(string name, char rank, int workHours)
+        {
+            this.name=name;
+            this.rank=rank;
+            this.workHours=workHours;
+        }
+
+        //------------------------------
+        // 建構元
+        //------------------------------         
+        public Employee(){}
         
         //------------------------------
         // getter及setter
@@ -41,21 +56,7 @@ namespace Ntub.Imd
                 return this._workHours;
             }
         }
-
-        //------------------------------
-        // 建構元
-        //------------------------------        
-        public Employee(string name, char rank, int workHours)
-        {
-            this.name=name;
-            this.rank=rank;
-            this.workHours=workHours;
-        }
-
-        //------------------------------
-        // 建構元
-        //------------------------------         
-        public Employee(){}
+        //------------------------------   
     }
 }
 ```
