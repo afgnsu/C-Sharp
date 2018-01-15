@@ -9,7 +9,7 @@
 ```
 
 
-#### (2-1) Student.cs
+#### (2-1) Employee.cs
 
 ```
 namespace Ntub.Imd
