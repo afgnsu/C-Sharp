@@ -47,7 +47,7 @@ namespace Ntub.Imd
         public void setRank(char rank){this.rank=rank;}
         public void setWorkHours(int workHours)
         {
-             if(workHours>=0)
+            if(workHours>=0)
             {
                 this.workHours=workHours;   
             }
