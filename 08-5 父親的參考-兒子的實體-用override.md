@@ -50,7 +50,7 @@ namespace Ntub.Imd
         }
         
         //------------------------
-        // 方法
+        // 員工計算薪水的方法
         //------------------------        
         public virtual int Salary()
         {
@@ -96,7 +96,7 @@ namespace Ntub.Imd
         } 
         
         //------------------------
-        // 方法
+        // 司機計算薪水的方法
         //------------------------        
         public override int Salary()
         {
